@@ -7,8 +7,8 @@ function stringManipulation(word){
  return word;
  } else if (word.charAt(0) == 'i' || word.charAt(0) == 'I'){
    return word;
- } else if(){
- 
+ } else if(word.charAt(0) == 'u' || word.charAt(0) == 'U'){
+   return word;
  } else if(){
 
  } else if(){
