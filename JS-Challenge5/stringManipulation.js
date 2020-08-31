@@ -9,12 +9,14 @@ function stringManipulation(word){
    return word;
  } else if(word.charAt(0) == 'u' || word.charAt(0) == 'U'){
    return word;
- } else if(){
-
- } else if(){
- 
+ } else if(word.charAt(0) == 'e' || word.charAt(0) == 'E'){
+   return word;
+ } else if(word.charAt(0) == 'o' || word.charAt(0) == 'O'){
+   return word;
  } else {
- 
+   str1 = word.slice(0,1);
+   str2 = word.slice(1);
+   str3 = 'nyo';
  }
 }
 
