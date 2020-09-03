@@ -1,12 +1,18 @@
 function weirdMultiply(sentence){
- let hasil = 1;
- strAngka = sentence.toString();
+  let hasil = 1,
+  strAngka = sentence.toString();
 
- if (strAngka.length == 1){
-  console.log('Dijit Angka 1', strAngka );
- } else {
-  console.log('Dijit Angka 2', strAngka.charAt(2));
- }
+  if (strAngka.length == 1) {
+    hasil = parseInt(strAngka);
+    return hasil;
+  } else {
+    for (let i = 0; i < strAngka.length; i++) {
+      hasil *= parseInt((strAngka.charAt(i)));
+    }
+    return weirdMultiply(hasil);
+  }
+
 }
-
-weirdMultiply(39);
+console.log(weirdMultiply(39));
+console.log(weirdMultiply(999));
+console.log(weirdMultiply(3));
