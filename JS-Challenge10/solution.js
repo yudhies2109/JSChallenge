@@ -32,4 +32,22 @@ function sentenceManipulation(sentence){
 }
 
 
-console.log(sentenceManipulation('ibu pergi ke pasar bersama aku'));
+function readLine(){
+  const readline = require('readline');
+
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+    prompt:'tulis kalimatmu disini > '
+  });
+  rl.prompt();
+  rl.on('line', (input) => {
+    console.log("Hasil konversi:" +sentenceManipulation(input));
+    rl.prompt();
+  }).on('close', () => {
+  console.log('Good Bye!');
+  process.exit();
+});
+}
+
+readLine()
