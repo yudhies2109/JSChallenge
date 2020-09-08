@@ -3,4 +3,4 @@ function tebakKata(){
 }
 
 
-tebakKata();
+
