@@ -1,5 +1,5 @@
 let param = process.argv;
-// console.log('nilai param', param)
+
 const fs = require('fs');
 
 function read() {
@@ -13,7 +13,7 @@ function save(agenda) {
 
 let agenda = [];
 console.log('nilai agenda', agenda)
-// let fill = function 
+
 let fill = param[2].slice(7);
 
 switch (param[2]) {
