@@ -12,7 +12,20 @@
       "tags": []
    },
    {
-      "task": "Belajar Coding",
+      "task": "Ashar Berjamaah",
+      "complete": false,
+      "tags": [
+         "makan",
+         "masjid"
+      ]
+   },
+   {
+      "task": "Telepon Rumah",
+      "complete": false,
+      "tags": []
+   },
+   {
+      "task": "makan malam",
       "complete": false,
       "tags": []
    }
