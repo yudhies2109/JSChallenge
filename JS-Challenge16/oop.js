@@ -14,10 +14,10 @@ class Car {
     BackOff() { }
 }
 
-class Tyre(){
+// class Tyre(){
 
-}
+// }
 
-class CarFactory {
+// class CarFactory {
 
-}
+// }
