@@ -14,9 +14,11 @@ class Car {
     BackOff() { }
 }
 
-// class Tyre(){
-
-// }
+class Tyre{
+  constructor(Brandtyre){
+    this.Tyre = Brandtyre;
+  }
+}
 
 // class CarFactory {
 
